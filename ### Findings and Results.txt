@@ -1,0 +1,54 @@
+### Findings and Results
+
+#### Results
+The analysis performed on the educational platform’s dataset, leveraging K-Means clustering and various statistical methods, provided the following outcomes:
+
+**1. Cluster Identification**
+- **Clusters Formed:** Four clusters were identified using K-Means clustering based on engagement and performance metrics.
+  - **Cluster 0:** Students with the highest engagement, consistently logging in, completing activities, and achieving high scores.
+  - **Cluster 1:** Moderately engaged students with steady but average performance.
+  - **Cluster 2:** Students with minimal engagement, struggling to complete activities and showing lower performance.
+  - **Cluster 3:** Irregular users who spent substantial time on the platform but had mixed results.
+
+**2. Statistical Evaluation Metrics**
+- **Adjusted Rand Index (ARI):** 0.256
+- **Normalized Mutual Information (NMI):** 0.219
+- **Silhouette Score:** [Insert value if available]
+- **Confusion Matrix Insights:** Highlighted classification challenges between certain clusters, particularly those with overlapping engagement metrics.
+
+**3. Principal Component Analysis (PCA)**
+- **Variance Explanation:** The first two components explained 29.7% of the total variance (17.3% and 12.4%, respectively).
+- **Visualization:** PCA projections revealed clear separations between clusters, validating the grouping approach.
+
+**4. Cluster Statistics**
+- Distribution:
+  - Cluster 0: [Insert percentage or count]
+  - Cluster 1: [Insert percentage or count]
+  - Cluster 2: [Insert percentage or count]
+  - Cluster 3: [Insert percentage or count]
+
+#### Key Observations
+
+**1. Engagement Patterns as Success Predictors**
+- **High Engagement:** Metrics such as logins per month, days of activity completion, and total time spent were strongly associated with better academic grades.
+- **Subscription Tiers:** Premium-tier students consistently demonstrated higher success rates due to likely access to enhanced features and resources.
+
+**2. Behavioral Clusters:**
+- **Cluster 0:** Represented top-performing students benefiting from optimal engagement and resource utilization.
+- **Cluster 1:** A stable group with potential for improvement with targeted interventions.
+- **Cluster 2:** At-risk students needing immediate support to prevent further disengagement.
+- **Cluster 3:** Users with inconsistent behavior but untapped potential for better outcomes.
+
+#### Implications
+
+**Personalized Interventions:**
+- The findings highlight the need for targeted strategies, such as enhanced engagement tools for at-risk students (Cluster 2).
+
+**Enhanced Subscription Plans:**
+- Emphasizing the value of premium-tier subscriptions to encourage engagement and success.
+
+**Platform Improvements:**
+- Tailoring features like personalized reminders, gamification, or reward systems to boost participation across all clusters.
+
+By addressing the unique characteristics of each cluster, educational platforms can optimize learning outcomes and ensure equitable success opportunities for all students.
+
